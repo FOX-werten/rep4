@@ -1,0 +1,178 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Body */
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: DeepSkyBlue;
+    color: white;
+}
+aside{
+	width: 100%;
+	height: 200px;
+}
+footer{
+	width: 100%;
+	height: 300px;
+    background-color: DeepSkyBlue;
+}
+
+/* Header */
+.header_d {
+    background-color: #0000ff;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-left: 35px;
+    color: #fff;
+}
+/* Main */
+.d_main {
+    width: 500px;
+    height: 800px;
+    margin-left: auto;
+    background-color: #36395A;
+    border-radius: 3%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.img_main {
+    margin: 50px;
+    max-width: 80%;
+    height: auto;
+}
+article {
+    width: 80%;
+    font-size: 21px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+/* My Contact */
+.my_contact {
+    height: 300px;
+    background-color: #36395A;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.img1 {
+    width: 75px;
+    margin-right: 25px;
+}
+
+p {
+    margin-left: -10px;
+}
+
+/* My Works */
+.my_works {
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.button {
+    width: 100px; 
+	margin: 5px;
+    flex-direction: column; 
+}
+
+.button {
+    margin-bottom: 10px; 
+}
+a.b2 {
+    color: white;
+}
+
+/* Social Buttons */
+.social-buttons {
+    position: absolute;
+    display: auto;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+	margin: 5px;
+}
+.social-buttons{
+	display: flex;
+    flex-direction: column;
+}
+.social-button {
+    margin-bottom: 10px;
+}
+
+.social-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-button img:hover {
+    transform: scale(1.1);
+}
+
+/* Button Animation */
+button.b1 {
+    margin-top: 10px;
+    margin-left: 45px;
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: all 0.3s ease;
+}
+
+button.b1:hover {
+    background: #00ff00;
+    color: #444;
+    transform: scale(1.05);
+}
+
+button.b1::before,
+button.b1::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #272822;
+    transition: all 0.3s ease;
+}
+
+button.b1::before {
+    top: -6px;
+}
+
+button.b1::after {
+    bottom: -6px;
+}
+
+button.b1:hover::before,
+button.b1:hover::after {
+    width: 15px;
+}

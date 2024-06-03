@@ -1,0 +1,177 @@
+body{
+	background-image: url(https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1{
+font-weight: 400;
+text-align: center;	
+  font-family: "Pacifico", cursive;
+font-size: 4em;
+color: rgb(80, 57, 211);
+
+}
+nav{	width: 14%;
+	float: right;            
+	border: solid 2px black;
+	margin-left: 5px;
+	border-radius: 15px;
+margin-right: 8px;
+}  
+main{
+	background-color: rgb(0, 52, 110);
+	width: 70%;
+	float: left;
+	box-shadow: rgba(0, 0, 0, 1) 0px 2px 8px;
+	margin-bottom: 8px;
+	border-radius: 25px;
+}
+h2{
+	text-align: center;
+  font-size: 1.9em;
+  color: black;
+font-family: "Pacifico", cursive;
+}
+aside{
+	width: 14%;
+	float: right;
+	border: solid 2px black;
+	margin-right: 5px;
+		border-radius: 15px;
+    margin-top: 7.5px;
+} 
+p{
+text-indent: 1.4em;
+font-size: 1.4em;
+line-height: 1.4em;
+  font-family: "Roboto Mono", monospace;
+text-align: justify;
+font-weight: 500;
+}
+img.img1{
+display: inline-block;
+width: 200px; /* Установить ширину изображения */
+height: auto; /* Установить высоту изображения */
+border: ridge 8px black;
+margin-left: 2em;
+}
+a{
+text-decoration: none;	
+}
+a:hover{
+color: blue;
+text-decoration: dashed underline;
+}
+ul{
+list-style-type: none;	
+}
+#navbutton{
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+  margin-bottom: 10px;
+text-align: center;
+width: 85%;
+ 
+}
+#navbutton:active{
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+.up{
+margin: auto;
+display: block;
+}
+.ap:hover{
+text-decoration: none;	
+}
+.button {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active,
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 18px;
+    min-width: 19px;
+  }
+}
+footer{
+	width: 14%;
+	float: right;
+	margin-left: 5px;
+	margin-top: 8px;
+	border-radius: 15px;
+margin-right: 8px;
+border: solid 2px black;
+color: black;
+}
+.contact{
+  font-size: 18px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+  padding: 0 2em;
+  border-radius: 0.3em;
+  color: #fff;
+  height: 2.6em;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.contact:hover {
+  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+  transform: translateY(-0.1em);
+}
+
+.contact:active {
+  box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+  transform: translateY(0em);
+}
+#li4{
+list-style-type: none;
+margin-top: 8px;
+}
+@media only screen and (max-width:800px){
+main,nav,aside,footer{
+width: 100%;	
+}

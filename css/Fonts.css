@@ -1,0 +1,88 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+p{
+	font-size: 50px;
+}
+.p1{
+	background: linear-gradient(orange,gold,yellow);
+	color: navy;
+	text-align: center;
+	font-family: "Rampart One", sans-serif;
+}
+.p2{
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-weight: 800;
+	text-decoration: underline;
+	text-underline-position: under;
+} 
+.p3{
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 text-decoration: underline;
+	 text-underline-position: under;
+	 text-decoration-color: aqua;
+	 text-decoration-style: wavy;
+}
+.p4{
+	font-family: "Lucida Console", Courier, monospace;
+	font-style: italic;
+	text-decoration: line-through;
+	 text-decoration-color: greenyellow;
+	 text-decoration-style: double;
+}
+.p5{
+	font-family: "Lucida Handwriting", cursive;
+	text-shadow: 4px -5px darkgreen;
+	color: limegreen;
+		 text-underline-position: under;
+	 text-decoration-color: green;
+	 text-decoration-style: dotted;
+}
+.p6{
+	font-family: fentasy;
+	text-transform: capitalize;
+	text-shadow: 3px -4px red;
+	color: indigo;
+}
+.p7{
+  font-family: "Pacifico", cursive;
+  text-transform: uppercase;
+  text-shadow: 0px -0px 10px purple;
+  color: violet;
+}
+.p8{
+	 font-family: "Comforter Brush", cursive;
+	 text-transform: lowercase;
+	 text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+}
+.p9{
+	font-family: "Rampart One", sans-serif;
+}
+.p10{
+  font-family: "Rubik Marker Hatch", system-ui;
+  color: darkblue;
+}
+.p11{}
+.p12{
+  font-family: "Pacifico", cursive;
+  color: limegreen;
+}
+.p12 span{
+	color: cyan;
+}
+.p13{
+	font-family: "Lucida Handwriting", cursive;
+}
+.s1 {
+	font-size: 5em;
+	color: orangered;
+}
+.s2{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: rosybrown;
+}
